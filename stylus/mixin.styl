@@ -1,0 +1,64 @@
+backgroundImgSetting(size)
+  background-repeat no-repeat
+  background-size size
+  background-position center center
+
+limitRow(maxHeight, row)
+  min-height maxHeight
+  overflow hidden
+  text-overflow ellipsis
+  display -webkit-box
+  -webkit-line-clamp row
+  -webkit-box-orient vertical
+
+hideNumberArrow()
+  appearance none
+  -o-appearance none
+  -ms-appearance none
+  -webkit-appearance none
+  -moz-appearance: textfield
+
+screen1366down()
+  @media screen and (max-width: 1365px)
+    {block}
+
+screen1366up()
+  @media screen and (min-width: 1366px)
+    {block}
+
+screen1366down()
+  @media screen and (max-width: 1366px)
+    {block}
+
+screen1024up()
+  @media screen and (min-width: 1024px)
+    {block}
+
+screen1024down()
+  @media screen and (max-width: 1023px)
+    {block}
+
+screen768up()
+  @media screen and (min-width: 768px)
+    {block}
+
+screen768down()
+  @media screen and (max-width: 767px)
+    {block}
+
+screen520up()
+  @media screen and (min-width: 520px)
+    {block}
+
+screen520down()
+  @media screen and (max-width: 519px)
+    {block}
+
+windowContainer(maxWidth = default_max_w)
+  max-width maxWidth
+  margin 0 auto
+  +screen1366down()
+    width 90%
+
+fullPage(otherHeight)
+  min-height 'calc(100vh - %s - %s - %s)' % (fusionsHeaderH fusionsFooterH otherHeight)

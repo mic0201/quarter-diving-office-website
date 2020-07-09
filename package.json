@@ -1,0 +1,31 @@
+{
+  "name": "quarter-diving-official-website",
+  "version": "1.0.0",
+  "description": "My stunning Nuxt.js project",
+  "author": "tony.lin",
+  "private": true,
+  "scripts": {
+    "serve": "nuxt --port 5555",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/style-resources": "^1.0.0",
+    "axios": "^0.19.2",
+    "dayjs": "^1.8.28",
+    "nuxt": "^2.13.2",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
+    "vue-i18n": "^8.18.2"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "vue-jest": "^4.0.0-0"
+  }
+}
