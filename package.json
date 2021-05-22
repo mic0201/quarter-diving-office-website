@@ -16,7 +16,7 @@
     "axios": "^0.21.1",
     "dayjs": "^1.8.28",
     "nuxt": "^2.13.2",
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
